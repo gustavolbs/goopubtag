@@ -72,4 +72,13 @@ export type UseGPT<PageAttributes extends Attributes> = {
 	 * @returns
 	 */
 	setPrivacySettings: (settings: Partial<PrivacySettings>) => void;
+	/**
+	 * This function when called will either:
+	 * 
+	 * - destroy the ad slots provided
+	 * - destroy all slots if no parameter is provided
+	 * @param adSlots The list of ad slot(s)
+	 * @returns
+	 */
+	destroySlots: (adSlots?: string[]) => void;
 };

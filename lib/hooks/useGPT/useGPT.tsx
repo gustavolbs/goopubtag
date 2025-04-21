@@ -127,6 +127,21 @@ const useGPT = <
 		});
 	};
 
+	/**
+	 * This function when called will either:
+	 * 
+	 * - destroy the ad slots provided
+	 * - destroy all slots if no parameter is provided
+	 * @param adSlots The list of ad slot(s)
+	 * @returns
+	 */
+	const destroySlots = <AdSlots extends string[] = string[]>(adSlots?: AdSlots) => {
+		gtag.push(() => {
+				gtag.destroySlots(adSlots);
+		});
+	};
+
+
 	return {
 		refresh,
 		setTargetingAttributes,
@@ -134,6 +149,7 @@ const useGPT = <
 		clearTargetingAttributes,
 		clearPageTargetingAttributes,
 		setPrivacySettings,
+		destroySlots,
 	};
 };
 
