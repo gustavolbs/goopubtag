@@ -1,5 +1,11 @@
 # goopubtag
 
+## 0.4.0
+
+### Minor Changes
+
+- 4bbb896: Add destroySlots function to manage ad slots in useGPT hook
+
 ## 0.3.0
 
 ### Minor Changes
