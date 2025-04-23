@@ -1,5 +1,11 @@
 # goopubtag
 
+## 0.4.1
+
+### Patch Changes
+
+- 7ee82a9: Move refresh and destroySlots functions to utils
+
 ## 0.4.0
 
 ### Minor Changes
