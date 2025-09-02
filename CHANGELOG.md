@@ -1,5 +1,11 @@
 # goopubtag
 
+## 0.4.3
+
+### Patch Changes
+
+- Add docs to Next.js usage
+
 ## 0.4.2
 
 ### Patch Changes

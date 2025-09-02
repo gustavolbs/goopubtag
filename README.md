@@ -37,3 +37,16 @@ const Component = () => {
   );
 }
 ```
+
+If you're using Next.js, don't forget to add this:
+
+```tsx
+<head>
+  ...
+  <Script
+    strategy="afterInteractive"
+    src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+  />
+  ...
+</head>
+```

@@ -1,6 +1,6 @@
 {
 	"name": "goopubtag-gustavolbs",
-	"version": "0.4.2",
+	"version": "0.4.3",
 	"description": "React library for Google Publisher tag",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
