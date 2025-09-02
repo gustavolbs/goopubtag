@@ -1,5 +1,11 @@
 # goopubtag
 
+## 0.4.2
+
+### Patch Changes
+
+- Update the docs link
+
 ## 0.4.1
 
 ### Patch Changes

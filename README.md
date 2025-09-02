@@ -9,14 +9,14 @@ Goopubtag is a modern solution for [Google Publisher tag](https://developers.goo
 - Ease of use with debug mode 🛠️
 - Support for most recent GPT implementations 🚀
 
-To get started, head over to the [documentation site](https://www.goopubtag.com).
+To get started, head over to the [documentation site](https://goopubtag-docs.vercel.app/).
 
 ## Installation
 
 At the route of your application, in your terminal run:
 
 ```bash
-npm install goopubtag # or yarn, pnpm
+npm install goopubtag-gustavolbs # or yarn, pnpm
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm install goopubtag # or yarn, pnpm
 After installation is complete, you can start using goopubtag in your application:
 
 ```tsx
-import { GPTProvider, GPTSlot } from 'goopubtag';
+import { GPTProvider, GPTSlot } from 'goopubtag-gustavolbs';
  
 const Component = () => {
   return (
