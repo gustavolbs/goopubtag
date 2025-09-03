@@ -1,5 +1,11 @@
 # goopubtag
 
+## 0.4.4
+
+### Patch Changes
+
+- Destroy slot once unmounted
+
 ## 0.4.3
 
 ### Patch Changes
